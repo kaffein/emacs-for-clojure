@@ -70,3 +70,8 @@
 
 ;; set font size
 (set-face-attribute 'default nil :height 100)
+
+;; avy configuration
+(global-set-key (kbd "C-:") 'avy-goto-char)
+(global-set-key (kbd "C-'") 'avy-goto-char-2)
+(global-set-key (kbd "M-g f") 'avy-goto-line)

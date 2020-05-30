@@ -76,7 +76,10 @@
     magit
 
     ;; which-key
-    which-key))
+    which-key
+
+   ;; avy
+   avy))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
