@@ -67,3 +67,6 @@
     (quit nil)))
 
 (setq electric-indent-mode nil)
+
+;; set font size
+(set-face-attribute 'default nil :height 100)
