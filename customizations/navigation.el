@@ -60,3 +60,7 @@
 
 ;; projectile everywhere!
 (projectile-global-mode)
+
+;; which-key-mode powaaaa!!
+(require 'which-key)
+(which-key-mode)
