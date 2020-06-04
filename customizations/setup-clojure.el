@@ -37,6 +37,9 @@
 
 (add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
 
+;; enable company mode with fuzzy completion feature
+(global-company-mode)
+
 ;;;;
 ;; Cider
 ;;;;
