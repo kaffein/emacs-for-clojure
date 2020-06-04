@@ -79,7 +79,10 @@
     which-key
 
    ;; avy
-   avy))
+   avy
+
+   ;; clojure code refactoring
+   clj-refactor))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
