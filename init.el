@@ -146,6 +146,9 @@
 ;; For editing lisps
 (load "elisp-editing.el")
 
+;; Mac OSX specific shit
+(load "personal.el")
+
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
