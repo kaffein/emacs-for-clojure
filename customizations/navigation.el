@@ -59,7 +59,10 @@
 (global-set-key (kbd "M-x") 'smex)
 
 ;; projectile everywhere!
-(projectile-global-mode)
+(require 'projectile)
+(define-key projectile-mode-map (kbd "C-x p") 'projectile-command-map)
+(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+(projectile-mode +1)
 
 ;; which-key-mode powaaaa!!
 (require 'which-key)
