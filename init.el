@@ -85,7 +85,10 @@
    clj-refactor
 
    ;; auto-completion
-   company))
+   company
+
+   ;; a better fuzzy-matching engine for ido
+   flx-ido))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a

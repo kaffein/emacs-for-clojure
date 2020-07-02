@@ -47,6 +47,12 @@
 (ido-ubiquitous-mode t)
 (ido-everywhere t)
 
+;; This takes ido's fuzzy matching to the next level
+(flx-ido-mode 1)
+;; disable ido faces to see flx highlights.
+(setq ido-enable-flex-matching t)
+(setq ido-use-faces nil)
+
 ;; Shows a list of buffers
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
