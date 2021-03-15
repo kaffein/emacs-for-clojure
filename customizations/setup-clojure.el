@@ -42,6 +42,10 @@
 ;; fuzzy completion for company
 (add-hook 'cider-repl-mode-hook #'cider-company-enable-fuzzy-completion)
 (add-hook 'cider-mode-hook #'cider-company-enable-fuzzy-completion)
+;; trigger suggest right away without waiting
+(setq company-idle-delay 0.5)
+(global-set-key (kbd "C-c C-/") 'company-complete-common)
+
 
 ;;;;
 ;; Cider
